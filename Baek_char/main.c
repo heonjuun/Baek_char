@@ -1,23 +1,23 @@
-#include<string.h>
-#include<stdio.h>
-char s[1000001];
-int main()
-{
-
-	int count = 1;
-	scanf("%[^\n]", s);
-
-	if (strlen(s) == 1 && s[0] == ' ')
-	{
-		printf("0");
-		return 0;
-	}
-	for (int i = 1; i < strlen(s)-1; i++)
-	{
-		if (s[i] == ' ') count++;
-	}
-	printf("%d", count);	
-
-	return 0;
-
-}
+//#include<string.h>
+//#include<stdio.h>
+//char s[1000001];
+//int main()
+//{
+//
+//	int count = 1;
+//	scanf("%[^\n]", s);
+//
+//	if (strlen(s) == 1 && s[0] == ' ')
+//	{
+//		printf("0");
+//		return 0;
+//	}
+//	for (int i = 1; i < strlen(s)-1; i++)
+//	{
+//		if (s[i] == ' ') count++;
+//	}
+//	printf("%d", count);	
+//
+//	return 0;
+//
+//}
