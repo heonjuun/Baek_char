@@ -21,5 +21,8 @@
     <ClCompile Include="sangsoo.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5622.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
